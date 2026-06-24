@@ -1,0 +1,15 @@
+{
+  "id" : "https://kantonelli.github.io/June2026IIIFWorkshop/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in kantonelli/June2026IIIFWorkshop project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://kantonelli.github.io/June2026IIIFWorkshop/manifests/manifest2.json",
+    "label" : {
+      "en" : [ "Kat's Manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
