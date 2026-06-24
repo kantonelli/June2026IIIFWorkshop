@@ -1,0 +1,195 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://kantonelli.github.io/June2026IIIFWorkshop/manifests/manifest2.json",
+  "type" : "Manifest",
+  "rights" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "behavior" : [ "individuals" ],
+  "structures" : [ {
+    "id" : "http://example.org/iiif/book1/range/top",
+    "type" : "Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ {
+      "id" : "http://example.org/iiif/book1/range/intro",
+      "type" : "Range",
+      "label" : "Part 1",
+      "canvases" : [ "https://example.org/n4e7fjcuui-mqs5pu4u/canvas/759ykwdah0h-mqs5uv85" ]
+    } ]
+  } ],
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Important Info" ]
+    },
+    "value" : {
+      "en" : [ "Provided courtesy of Example Institution" ]
+    }
+  },
+  "summary" : {
+    "en" : [ "This is a summary at the manifest level." ]
+  },
+  "label" : {
+    "en" : [ "Kat's Manifest" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Description" ]
+    },
+    "value" : {
+      "en" : [ "Images for IIIF training" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "" ]
+    },
+    "value" : {
+      "en" : [ "" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Creator" ]
+    },
+    "value" : {
+      "en" : [ "Anne Artist (1776-1824)" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/n4e7fjcuui-mqs5pu4u/canvas/759ykwdah0h-mqs5uv85",
+    "type" : "Canvas",
+    "height" : 1792,
+    "width" : 4096,
+    "label" : {
+      "en" : [ "Page 1" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/her_appeal-test_img%2fher_appeal-test_img.jpg/full/512,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 224,
+      "width" : 512
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/n4e7fjcuui-mqs5pu4u/canvas/759ykwdah0h-mqs5uv85/annotation-page/h8x9zp1b1v-mqs5uv85",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/n4e7fjcuui-mqs5pu4u/annotation/dis82e3j3sc-mqs5uv84",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/n4e7fjcuui-mqs5pu4u/canvas/759ykwdah0h-mqs5uv85",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/her_appeal-test_img%2fher_appeal-test_img.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1792,
+          "width" : 4096,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/her_appeal-test_img%2fher_appeal-test_img.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 4096,
+            "height" : 1792,
+            "sizes" : [ {
+              "width" : 256,
+              "height" : 112
+            }, {
+              "width" : 512,
+              "height" : 224
+            }, {
+              "width" : 1024,
+              "height" : 448
+            }, {
+              "width" : 2048,
+              "height" : 896
+            }, {
+              "width" : 4096,
+              "height" : 1792
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 7340032,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/n4e7fjcuui-mqs5pu4u/canvas/p5e1f96mk0i-mqs5wr6w",
+    "type" : "Canvas",
+    "height" : 2613,
+    "width" : 4658,
+    "label" : {
+      "en" : [ "Page 2" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/291,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 163,
+      "width" : 291
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/n4e7fjcuui-mqs5pu4u/canvas/p5e1f96mk0i-mqs5wr6w/annotation-page/8zvbn1n3103-mqs5wr6w",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/n4e7fjcuui-mqs5pu4u/annotation/j69i1qitct-mqs5wr6v",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/n4e7fjcuui-mqs5pu4u/canvas/p5e1f96mk0i-mqs5wr6w",
+        "body" : {
+          "id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2613,
+          "width" : 4658,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848",
+            "height" : 2613,
+            "metadata" : {
+              "caption" : "recto, cropped to image",
+              "source" : "Yale Center for British Art",
+              "imageCredit" : "Digital Image: Yale Center for British Art"
+            },
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "height" : 82,
+              "width" : 146
+            }, {
+              "height" : 163,
+              "width" : 291
+            }, {
+              "height" : 327,
+              "width" : 582
+            }, {
+              "height" : 653,
+              "width" : 1165
+            }, {
+              "height" : 1307,
+              "width" : 2329
+            }, {
+              "height" : 2613,
+              "width" : 4658
+            } ],
+            "tiles" : [ {
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ],
+              "width" : 512
+            } ],
+            "width" : 4658
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
