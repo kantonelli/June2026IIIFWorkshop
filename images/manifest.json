@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kantonelli.github.io/June2026IIIFWorkshop/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in kantonelli/June2026IIIFWorkshop project"
+        ]
+    },
+    "items": []
+}
