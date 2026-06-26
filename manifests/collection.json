@@ -11,5 +11,11 @@
       "en" : [ "Kat's Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://kantonelli.github.io/June2026IIIFWorkshop/manifests/kat-finkle-manifest.json",
+    "label" : {
+      "en" : [ "Kat's Finkle Manifest Test" ]
+    },
+    "type" : "Manifest"
   } ]
 }
