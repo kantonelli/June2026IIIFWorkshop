@@ -193,7 +193,7 @@
       } ]
     } ],
     "otherContent" : [ {
-      "@id" : "https://kantonelli.github.io/June2026IIIFWorkshop/annotations/annotations.json",
+      "@id" : "https://kantonelli.github.io/June2026IIIFWorkshop/annotations/annotations2.json",
       "@type" : "sc:AnnotationList",
       "label" : "p. 85 annotations"
     } ]
