@@ -1,348 +1,201 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/5ww4yfld849-mqtwd8yp",
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "Kat's Finkle Manifest Test"
-    ]
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://kantonelli.github.io/June2026IIIFWorkshop/manifests/kat-finkle-manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Kat's Finkle Manifest Test" ]
   },
-  "metadata": [
-    {
-      "label": {
-        "en": [
-          "Name"
-        ]
-      },
-      "value": {
-        "en": [
-          "Finkle, Harvey (creator, photographer)"
-        ]
-      }
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Name" ]
     },
-    {"label":"Rights","value":["https://creativecommons.org/licenses/by-nc/4.0/deed.en"]},
-    {"label":"Rights Note","value":["The contents of the \"Harvey Finkle photographs,\" an archival collection of photographic material created by Harvey Finkle, of which this volume of digitized images is a part, is held at the University of Pennsylvania: Kislak Center for Special Collections, Rare Books and Manuscripts and is licensed under CC BY-NC 4.0."]},
-    {
-  "requiredStatement": {
-    "label": { "en": [ "Attribution" ] },
-    "value": { "en": [ "Provided courtesy of University of Pennsylvania Libraries." ] }
-  }
-},
-
-    {
-      "label": {
-        "en": [
-          "Geographic Location"
-        ]
+    "value" : {
+      "en" : [ "Finkle, Harvey (creator, photographer)" ]
+    }
+  }, {
+    "label" : "Rights",
+    "value" : [ "https://creativecommons.org/licenses/by-nc/4.0/deed.en" ]
+  }, {
+    "label" : "Rights Note",
+    "value" : [ "The contents of the \"Harvey Finkle photographs,\" an archival collection of photographic material created by Harvey Finkle, of which this volume of digitized images is a part, is held at the University of Pennsylvania: Kislak Center for Special Collections, Rare Books and Manuscripts and is licensed under CC BY-NC 4.0." ]
+  }, {
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Attribution" ]
       },
-      "value": {
-        "en": [
-          "Philadelphia (Pa.)"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Collection Call Number"
-        ]
-      },
-      "value": {
-        "en": [
-          "Ms. Coll. 1531"
-        ]
+      "value" : {
+        "en" : [ "Provided courtesy of University of Pennsylvania Libraries." ]
       }
     }
-  ],
-  "summary": {
-    "en": [
-      "Black-and-white photographic prints depicting demonstrations and protests regarding feminism, prison growth, and war. Prints feature portraits and candid photographs primarily related to activities led by the Bread & Roses Community Fund."
-    ]
+  }, {
+    "label" : {
+      "en" : [ "Geographic Location" ]
+    },
+    "value" : {
+      "en" : [ "Philadelphia (Pa.)" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Collection Call Number" ]
+    },
+    "value" : {
+      "en" : [ "Ms. Coll. 1531" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "Black-and-white photographic prints depicting demonstrations and protests regarding feminism, prison growth, and war. Prints feature portraits and candid photographs primarily related to activities led by the Bread & Roses Community Fund." ]
   },
-  "items": [
-    {
-      "id": "https://example.org/5ww4yfld849-mqtwd8yp/canvas/mcen6uywf5-mqtx339a",
-      "type": "Canvas",
-      "height": 5064,
-      "width": 6261,
-      "label": {
-        "en": [
-          "p. 77"
-        ]
-      },
-      "thumbnail": [
-        {
-          "id": "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/2887e0ae-c4cf-4d37-8597-7d53663819c7/full/391,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 316,
-          "width": 391
-        }
-      ],
-      "items": [
-        {
-          "id": "https://example.org/5ww4yfld849-mqtwd8yp/canvas/mcen6uywf5-mqtx339a/annotation-page/k9f1z0xzhn-mqtx339a",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/5ww4yfld849-mqtwd8yp/annotation/087vkhbkwozf-mqtx3399",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://example.org/5ww4yfld849-mqtwd8yp/canvas/mcen6uywf5-mqtx339a",
-              "body": {
-                "id": "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/2887e0ae-c4cf-4d37-8597-7d53663819c7/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 5064,
-                "width": 6261,
-                "service": [
-                  {
-                    "@context": "http://iiif.io/api/image/2/context.json",
-                    "@id": "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/2887e0ae-c4cf-4d37-8597-7d53663819c7",
-                    "protocol": "http://iiif.io/api/image",
-                    "width": 6261,
-                    "height": 5064,
-                    "sizes": [
-                      {
-                        "width": 6261,
-                        "height": 5064
-                      },
-                      {
-                        "width": 3130,
-                        "height": 2532
-                      },
-                      {
-                        "width": 1565,
-                        "height": 1266
-                      },
-                      {
-                        "width": 782,
-                        "height": 633
-                      },
-                      {
-                        "width": 391,
-                        "height": 316
-                      },
-                      {
-                        "width": 195,
-                        "height": 158
-                      },
-                      {
-                        "width": 97,
-                        "height": 79
-                      }
-                    ],
-                    "tiles": [
-                      {
-                        "width": 512,
-                        "height": 512,
-                        "scaleFactors": [
-                          1,
-                          2,
-                          4,
-                          8,
-                          16,
-                          32,
-                          64
-                        ]
-                      }
-                    ],
-                    "profile": [
-                      "http://iiif.io/api/image/2/level2.json",
-                      {
-                        "formats": [
-                          "gif",
-                          "jpg",
-                          "tif",
-                          "png",
-                          "webp"
-                        ],
-                        "qualities": [
-                          "color",
-                          "gray",
-                          "bitonal",
-                          "default"
-                        ],
-                        "supports": [
-                          "baseUriRedirect",
-                          "canonicalLinkHeader",
-                          "cors",
-                          "jsonldMediaType",
-                          "mirroring",
-                          "profileLinkHeader",
-                          "regionByPct",
-                          "regionByPx",
-                          "regionSquare",
-                          "rotationArbitrary",
-                          "rotationBy90s",
-                          "sizeAboveFull",
-                          "sizeByConfinedWh",
-                          "sizeByDistortedWh",
-                          "sizeByForcedWh",
-                          "sizeByH",
-                          "sizeByPct",
-                          "sizeByW",
-                          "sizeByWh",
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ],
-      "otherContent": [
-    {
-        "@id": "https://kantonelli.github.io/June2026IIIFWorkshop/annotations/annotations.json",
-        "@type": "sc:AnnotationList",
-        "label": "p.77 annotations"
-    }
-]
+  "items" : [ {
+    "id" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/mcen6uywf5-mqtx339a",
+    "type" : "Canvas",
+    "height" : 5064,
+    "width" : 6261,
+    "label" : {
+      "en" : [ "p. 77" ]
     },
-    {
-      "id": "https://example.org/5ww4yfld849-mqtwd8yp/canvas/0wpiw9cljpij-mqtx8wck",
-      "type": "Canvas",
-      "height": 5007,
-      "width": 6261,
-      "label": {
-        "en": [
-          "p. 85"
-        ]
-      },
-      "thumbnail": [
-        {
-          "id": "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/68cd3319-73df-432c-902b-aacd3313db03/full/391,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 312,
-          "width": 391
+    "thumbnail" : [ {
+      "id" : "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/2887e0ae-c4cf-4d37-8597-7d53663819c7/full/391,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 316,
+      "width" : 391
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/mcen6uywf5-mqtx339a/annotation-page/k9f1z0xzhn-mqtx339a",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/5ww4yfld849-mqtwd8yp/annotation/087vkhbkwozf-mqtx3399",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/mcen6uywf5-mqtx339a",
+        "body" : {
+          "id" : "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/2887e0ae-c4cf-4d37-8597-7d53663819c7/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 5064,
+          "width" : 6261,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/2887e0ae-c4cf-4d37-8597-7d53663819c7",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 6261,
+            "height" : 5064,
+            "sizes" : [ {
+              "width" : 6261,
+              "height" : 5064
+            }, {
+              "width" : 3130,
+              "height" : 2532
+            }, {
+              "width" : 1565,
+              "height" : 1266
+            }, {
+              "width" : 782,
+              "height" : 633
+            }, {
+              "width" : 391,
+              "height" : 316
+            }, {
+              "width" : 195,
+              "height" : 158
+            }, {
+              "width" : 97,
+              "height" : 79
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "gif", "jpg", "tif", "png", "webp" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByForcedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "sizeByWhListed" ]
+            } ]
+          } ]
         }
-      ],
-      "items": [
-        {
-          "id": "https://example.org/5ww4yfld849-mqtwd8yp/canvas/0wpiw9cljpij-mqtx8wck/annotation-page/0i35xlgbazec-mqtx8wck",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/5ww4yfld849-mqtwd8yp/annotation/haeusew0n2v-mqtx8wck",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://example.org/5ww4yfld849-mqtwd8yp/canvas/0wpiw9cljpij-mqtx8wck",
-              "body": {
-                "id": "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/68cd3319-73df-432c-902b-aacd3313db03/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 5007,
-                "width": 6261,
-                "service": [
-                  {
-                    "@context": "http://iiif.io/api/image/2/context.json",
-                    "@id": "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/68cd3319-73df-432c-902b-aacd3313db03",
-                    "protocol": "http://iiif.io/api/image",
-                    "width": 6261,
-                    "height": 5007,
-                    "sizes": [
-                      {
-                        "width": 6261,
-                        "height": 5007
-                      },
-                      {
-                        "width": 3130,
-                        "height": 2503
-                      },
-                      {
-                        "width": 1565,
-                        "height": 1251
-                      },
-                      {
-                        "width": 782,
-                        "height": 625
-                      },
-                      {
-                        "width": 391,
-                        "height": 312
-                      },
-                      {
-                        "width": 195,
-                        "height": 156
-                      },
-                      {
-                        "width": 97,
-                        "height": 78
-                      }
-                    ],
-                    "tiles": [
-                      {
-                        "width": 512,
-                        "height": 512,
-                        "scaleFactors": [
-                          1,
-                          2,
-                          4,
-                          8,
-                          16,
-                          32,
-                          64
-                        ]
-                      }
-                    ],
-                    "profile": [
-                      "http://iiif.io/api/image/2/level2.json",
-                      {
-                        "formats": [
-                          "gif",
-                          "jpg",
-                          "tif",
-                          "png",
-                          "webp"
-                        ],
-                        "qualities": [
-                          "color",
-                          "gray",
-                          "bitonal",
-                          "default"
-                        ],
-                        "supports": [
-                          "baseUriRedirect",
-                          "canonicalLinkHeader",
-                          "cors",
-                          "jsonldMediaType",
-                          "mirroring",
-                          "profileLinkHeader",
-                          "regionByPct",
-                          "regionByPx",
-                          "regionSquare",
-                          "rotationArbitrary",
-                          "rotationBy90s",
-                          "sizeAboveFull",
-                          "sizeByConfinedWh",
-                          "sizeByDistortedWh",
-                          "sizeByForcedWh",
-                          "sizeByH",
-                          "sizeByPct",
-                          "sizeByW",
-                          "sizeByWh",
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
+      } ]
+    } ],
+    "otherContent" : [ {
+      "@id" : "https://kantonelli.github.io/June2026IIIFWorkshop/annotations/annotations.json",
+      "@type" : "sc:AnnotationList",
+      "label" : "p.77 annotations"
+    } ]
+  }, {
+    "id" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/0wpiw9cljpij-mqtx8wck",
+    "type" : "Canvas",
+    "height" : 5007,
+    "width" : 6261,
+    "label" : {
+      "en" : [ "p. 85" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/68cd3319-73df-432c-902b-aacd3313db03/full/391,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 312,
+      "width" : 391
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/0wpiw9cljpij-mqtx8wck/annotation-page/0i35xlgbazec-mqtx8wck",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/5ww4yfld849-mqtwd8yp/annotation/haeusew0n2v-mqtx8wck",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/0wpiw9cljpij-mqtx8wck",
+        "body" : {
+          "id" : "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/68cd3319-73df-432c-902b-aacd3313db03/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 5007,
+          "width" : 6261,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://gxt7yyekufxjdvnp4c4tliucuq0elfea.lambda-url.us-east-1.on.aws/iiif/2/68cd3319-73df-432c-902b-aacd3313db03",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 6261,
+            "height" : 5007,
+            "sizes" : [ {
+              "width" : 6261,
+              "height" : 5007
+            }, {
+              "width" : 3130,
+              "height" : 2503
+            }, {
+              "width" : 1565,
+              "height" : 1251
+            }, {
+              "width" : 782,
+              "height" : 625
+            }, {
+              "width" : 391,
+              "height" : 312
+            }, {
+              "width" : 195,
+              "height" : 156
+            }, {
+              "width" : 97,
+              "height" : 78
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "gif", "jpg", "tif", "png", "webp" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByForcedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "sizeByWhListed" ]
+            } ]
+          } ]
         }
-      ],
-"otherContent": [
-    {
-        "@id": "https://kantonelli.github.io/June2026IIIFWorkshop/annotations/annotations.json",
-        "@type": "sc:AnnotationList",
-        "label": "p. 85 annotations"
-    }
-]
-    }
-  ]
+      } ]
+    } ],
+    "otherContent" : [ {
+      "@id" : "https://kantonelli.github.io/June2026IIIFWorkshop/annotations/annotations.json",
+      "@type" : "sc:AnnotationList",
+      "label" : "p. 85 annotations"
+    } ]
+  } ]
 }
