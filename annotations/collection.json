@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://kantonelli.github.io/June2026IIIFWorkshop/annotations/annotations.json" ],
+  "@id" : "https://kantonelli.github.io/June2026IIIFWorkshop/annotations/collection.json",
+  "label" : "All annotations loaded in kantonelli/June2026IIIFWorkshop project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
