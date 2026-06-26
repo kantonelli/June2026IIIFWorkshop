@@ -1,0 +1,25 @@
+{
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/0wpiw9cljpij-mqtx8wck/49f02552-71fc-4f38-add9-a8a4c2385704",
+    "type" : "Annotation",
+    "motivation" : "commenting",
+    "body" : [ {
+      "created" : "2026-06-26T04:40:16.867Z",
+      "creator" : "Kat",
+      "purpose" : "commenting",
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<p>Pete Seeger, musician</p>"
+    } ],
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/0wpiw9cljpij-mqtx8wck",
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=pixel:4140.893349818307,1192.8986544117874,872.8526148969895,1475.9144215530905"
+      }
+    }
+  } ]
+}
