@@ -1,0 +1,25 @@
+{
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/mcen6uywf5-mqtx339a/e383cd29-4a05-41ac-81c3-6cca7ca7e8f4",
+    "type" : "Annotation",
+    "motivation" : "commenting",
+    "body" : [ {
+      "created" : "2026-06-26T04:39:17.330Z",
+      "creator" : "Kat",
+      "purpose" : "commenting",
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<p>Sam Maitin, artist</p>"
+    } ],
+    "target" : {
+      "type" : "SpecificResource",
+      "source" : "https://example.org/5ww4yfld849-mqtwd8yp/canvas/mcen6uywf5-mqtx339a",
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=pixel:2283.973498855431,1698.3040859399073,2001.385522766166,2561.1787624396065"
+      }
+    }
+  } ]
+}
